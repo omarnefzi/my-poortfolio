@@ -28,7 +28,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close" onClick={()=> toggleTab(0)}></i>
 
-              <h3 className="services__modal-title"> Product Designer</h3>
+              <h3 className="services__modal-title"> Js Website</h3>
               <p className="services__modal-description">Providing quality work to client.</p>
             <ul className="services__modal-services grid">
               <li className="services__modal-service">
@@ -40,7 +40,7 @@ const Services = () => {
               <li className="services__modal-service">
                 <i className="uil uil-check-circle services__modal-icon"></i>
                 <p className="services__modal-info">
-                  Web page development.
+                Performance Optimization:.
                 </p>
               </li>
               <li className="services__modal-service">
@@ -57,7 +57,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">Ui <br /> Designer</h3>
+            <h3 className="services__title">React <br /> Website</h3>
           </div>
           <span className="services__button" onClick={()=> toggleTab(1)}>
             View More
@@ -68,25 +68,26 @@ const Services = () => {
             <div className="services__modal-content">
               <i className="uil uil-times services__modal-close" onClick={()=> toggleTab(0)}></i>
 
-              <h3 className="services__modal-title"> Ui Designer</h3>
+              <h3 className="services__modal-title"> React Website</h3>
               <p className="services__modal-description">Providing quality work to client.</p>
             <ul className="services__modal-services grid">
               <li className="services__modal-service">
                 <i className="uil uil-check-circle services__modal-icon"></i>
                 <p className="services__modal-info">
-                  I developer the user interface.
+                Showcase your expertise in building responsive and dynamic web .
                 </p>
               </li>
               <li className="services__modal-service">
                 <i className="uil uil-check-circle services__modal-icon"></i>
                 <p className="services__modal-info">
-                  Web page development.
+                
+                  Single-Page Applications .
                 </p>
               </li>
               <li className="services__modal-service">
                 <i className="uil uil-check-circle services__modal-icon"></i>
                 <p className="services__modal-info">
-                I developer  e-commerce site.
+                Component Libraries and UI Frameworks
                 </p>
               </li>
             </ul>
