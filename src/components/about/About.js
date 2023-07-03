@@ -13,7 +13,7 @@ export const About = () => {
       <div className="about__data">
         <Info />
         <p className="about__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tempora possimus. Sit sequi modi laudantium at vitae, officia molestias harum natus ullam nemo, tempore voluptate laboriosam, mollitia eius error odio!
+        . As an experienced front-end developer with expertise in HTML, CSS, JavaScript, and React JS, I have a keen eye for detail and a creative problem-solving approach to building visually appealing and functional websites. I am passionate about front-end development and continuously seek opportunities to expand my skills. I thrive in collaborative environments and enjoy working with others to bring ideas to life. With my diverse background and experience, I bring a unique perspective and skill set to any team or project.
         </p>
         <a download='' href={CV} className="button button--flex">Download CV
         <svg
