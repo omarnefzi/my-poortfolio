@@ -1,6 +1,6 @@
 import OnlineShop from '../../assets/work1.png'
+import WeatherApp from '../../assets/weather-app.png'
 import Todo from '../../assets/todo.png'
-import Work2 from '../../assets/work2.jpg'
 import Work3 from '../../assets/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
 
@@ -10,19 +10,27 @@ export const projectsData = [
     img:OnlineShop,
     title: 'Online Shop',
     category:'e-commerce',
-    href:'#'
+    href:'https://delightful-meringue-5de459.netlify.app/'
 
   },
   {
     id:2 ,
-    img:Work2,
-    title: 'Teck',
-    category:'e-commerce',
-    href:'#'
+    img:WeatherApp,
+    title: 'Weather App',
+    category:'other',
+    href:'https://master--helpful-medovik-5d51a1.netlify.app/'
 
   },
   {
     id:3 ,
+    img:Todo,
+    title: 'Todo App',
+    category:'other',
+    href:'https://to-do-app-red-phi.vercel.app/'
+
+  },
+  {
+    id:4 ,
     img:Work3,
     title: 'Movie App',
     category:'movie',
@@ -30,21 +38,14 @@ export const projectsData = [
 
   },
   {
-    id:4 ,
+    id:5 ,
     img:Work4,
     title: 'Phone Shop',
     category:'e-commerce',
     href:'#'
 
   },
-  {
-    id:5 ,
-    img:Todo,
-    title: 'Todo App',
-    category:'todo',
-    href:'https://to-do-app-red-phi.vercel.app/'
 
-  },
 ]
 
 export const projectsNav = [
@@ -56,7 +57,7 @@ export const projectsNav = [
 
   },
   {
-    name:'todo'
+    name:'other'
 
   },
   {
